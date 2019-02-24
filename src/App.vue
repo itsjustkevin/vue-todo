@@ -1,18 +1,16 @@
 <template>
   <div id="app" class="container">
     <img src="./assets/logo.png" class="logo">
-    <TodoList/>
+    <todo-list></todo-list>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
 import TodoList from "./components/TodoList";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
     TodoList
   }
 };
@@ -34,6 +32,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
   margin-top: 60px;
+  font-size: 24px;
 }
 
 .logo {
